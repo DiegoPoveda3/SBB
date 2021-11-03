@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat", sans-serif;
+}
+
+
+header{
+    width: 100%;
+    background: url(../img/fondo1.png);
+    background-size: cover;
+    height: 100vh;
+}
+header nav{
+width: 100%;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: white;
+}
+header nav a img{
+    max-width: 246px;
+    max-height: 57px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+header nav ul li a{
+    font-size: 22px;
+    color: gray;
+    text-decoration: none;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    padding: 16px 30px;
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid gray;
+    transition: 0.3s;
+}
+header #hero img{
+    max-height: 250px;
+}
+header #hero{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 180px;
+}
+header #hero h1{
+    color: #FF008C;
+    font-size: 80px;
+    margin: 0;
+}
+header #hero h2{
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+header #hero a{
+    background: #FF008C;
+    padding: 12px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 8px;
+    color: lime;
+    transition: .5s;
+}
+header #hero a:hover{
+    padding: 12px 60px;
+    border-radius: 0;
+    background: limegreen;
+    color: #FF008C;
+}
+main #planes{
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    text-align: center;
+    background: white ;
+}
+#planes .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#planes h2{
+    font-size: 50px;
+}
+#planes p{
+    font-size: 20px;
+}
+#planes .fila{
+    /*background: blue;*/
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+#planes .fila .card{
+    /*background: yellow;*/
+    position: relative;
+}
+#planes .fila .card h3{
+    position: absolute;
+    top: 90px;
+    color: white;
+    font-size: 26px;
+    left:0;
+    right: 0;
+}
+main #destinos{
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 10px;
+}
+#destinos{
+    background: url(../img/fondo2.png);
+    background-size: cover;
+
+}
+#destinos .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#destinos h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#destinos .fila{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+#destinos .fila .card img{
+    max-height: 262px;
+}
+#destinos .fila .card p{
+    top: 90px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}   
+#contacto{
+    background: gray ;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#contacto h2{
+    font-size: 50px;
+    color: white;
+}
+#contacto p{
+
+    color: white;
+}
+#contacto .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+#contacto input{
+    padding: 4px 15px;
+    font-size: 20px;
+    width: 250px;
+    margin: 20px;
+}
+#contacto select{
+    padding: 4px 15px;
+    font-size: 20px;
+    width: 290px;
+    margin: 20px;
+}
+#contacto button{
+    font-size: 20px;
+    padding: 10px 50px;
+    border: none;
+    background: darkslategray;
+    color: white;
+    border-radius: 4px;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+html{
+    scroll-behavior: smooth;
+}
